@@ -78,3 +78,15 @@ Our software uses a lot of third party libraries as well pre-trained models. The
 ## Documentation
 
 Read the [documentation](https://github.com/s0md3v/roop/wiki) for a deep dive.
+
+
+## Downloading stuffs
+```shell
+cd <project>/models
+wget https://huggingface.co/CountFloyd/deepfake/resolve/main/inswapper_128.onnx 
+wget https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth  
+
+mkdir ~/.insightface/models
+cd ~/.insightface/models
+wget https://github.com/deepinsight/insightface/releases/download/v0.7/buffalo_l.zip 
+```
